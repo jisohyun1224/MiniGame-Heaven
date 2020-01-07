@@ -1,0 +1,14 @@
+C:\Users\강지현\source\repos\MiniGameHeaven\MiniGameHeaven\bin\Release\dash_dot_lcd-7.ttf
+C:\Users\강지현\source\repos\MiniGameHeaven\MiniGameHeaven\bin\Release\Resources\Sabo-Filled.ttf
+C:\Users\강지현\source\repos\MiniGameHeaven\MiniGameHeaven\bin\Release\MiniGameHeaven.exe.config
+C:\Users\강지현\source\repos\MiniGameHeaven\MiniGameHeaven\bin\Release\MiniGameHeaven.exe
+C:\Users\강지현\source\repos\MiniGameHeaven\MiniGameHeaven\bin\Release\MiniGameHeaven.pdb
+C:\Users\강지현\source\repos\MiniGameHeaven\MiniGameHeaven\obj\Release\MiniGameHeaven.Form1.resources
+C:\Users\강지현\source\repos\MiniGameHeaven\MiniGameHeaven\obj\Release\MiniGameHeaven.Properties.Resources.resources
+C:\Users\강지현\source\repos\MiniGameHeaven\MiniGameHeaven\obj\Release\MiniGameHeaven.csproj.GenerateResource.Cache
+C:\Users\강지현\source\repos\MiniGameHeaven\MiniGameHeaven\obj\Release\MiniGameHeaven.csproj.CoreCompileInputs.cache
+C:\Users\강지현\source\repos\MiniGameHeaven\MiniGameHeaven\obj\Release\MiniGameHeaven.exe
+C:\Users\강지현\source\repos\MiniGameHeaven\MiniGameHeaven\obj\Release\MiniGameHeaven.pdb
+C:\Users\강지현\source\repos\MiniGameHeaven\MiniGameHeaven\obj\Release\MiniGameHeaven.csprojResolveAssemblyReference.cache
+C:\Users\강지현\source\repos\MiniGameHeaven\MiniGameHeaven\obj\Release\MiniGameHeaven.pac_man.resources
+C:\Users\강지현\source\repos\MiniGameHeaven\MiniGameHeaven\obj\Release\MiniGameHeaven.Ball.resources

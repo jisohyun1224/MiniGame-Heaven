@@ -1,0 +1,25 @@
+C:\Users\강지현\source\repos\MiniGameHeaven\MiniGameHeaven\bin\Debug\MiniGameHeaven.exe.config
+C:\Users\강지현\source\repos\MiniGameHeaven\MiniGameHeaven\bin\Debug\MiniGameHeaven.exe
+C:\Users\강지현\source\repos\MiniGameHeaven\MiniGameHeaven\bin\Debug\MiniGameHeaven.pdb
+C:\Users\강지현\source\repos\MiniGameHeaven\MiniGameHeaven\obj\Debug\MiniGameHeaven.csprojResolveAssemblyReference.cache
+C:\Users\강지현\source\repos\MiniGameHeaven\MiniGameHeaven\obj\Debug\MiniGameHeaven.Form1.resources
+C:\Users\강지현\source\repos\MiniGameHeaven\MiniGameHeaven\obj\Debug\MiniGameHeaven.Properties.Resources.resources
+C:\Users\강지현\source\repos\MiniGameHeaven\MiniGameHeaven\obj\Debug\MiniGameHeaven.csproj.GenerateResource.Cache
+C:\Users\강지현\source\repos\MiniGameHeaven\MiniGameHeaven\obj\Debug\MiniGameHeaven.csproj.CoreCompileInputs.cache
+C:\Users\강지현\source\repos\MiniGameHeaven\MiniGameHeaven\obj\Debug\MiniGameHeaven.exe
+C:\Users\강지현\source\repos\MiniGameHeaven\MiniGameHeaven\obj\Debug\MiniGameHeaven.pdb
+C:\Users\강지현\source\repos\MiniGameHeaven\MiniGameHeaven\bin\Debug\dash_dot_lcd-7.ttf
+C:\Users\강지현\source\repos\MiniGameHeaven\MiniGameHeaven\bin\Debug\Resources\Sabo-Filled.ttf
+C:\Users\User\Desktop\MiniGameHeaven (3)\MiniGameHeaven\bin\Debug\MiniGameHeaven.exe.config
+C:\Users\User\Desktop\MiniGameHeaven (3)\MiniGameHeaven\obj\Debug\MiniGameHeaven.exe
+C:\Users\User\Desktop\MiniGameHeaven (3)\MiniGameHeaven\obj\Debug\MiniGameHeaven.pdb
+C:\Users\User\Desktop\MiniGameHeaven (3)\MiniGameHeaven\bin\Debug\dash_dot_lcd-7.ttf
+C:\Users\User\Desktop\MiniGameHeaven (3)\MiniGameHeaven\bin\Debug\Resources\Sabo-Filled.ttf
+C:\Users\User\Desktop\MiniGameHeaven (3)\MiniGameHeaven\bin\Debug\MiniGameHeaven.exe
+C:\Users\User\Desktop\MiniGameHeaven (3)\MiniGameHeaven\bin\Debug\MiniGameHeaven.pdb
+C:\Users\User\Desktop\MiniGameHeaven (3)\MiniGameHeaven\obj\Debug\MiniGameHeaven.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\MiniGameHeaven (3)\MiniGameHeaven\obj\Debug\MiniGameHeaven.Ball.resources
+C:\Users\User\Desktop\MiniGameHeaven (3)\MiniGameHeaven\obj\Debug\MiniGameHeaven.Form1.resources
+C:\Users\User\Desktop\MiniGameHeaven (3)\MiniGameHeaven\obj\Debug\MiniGameHeaven.pac_man.resources
+C:\Users\User\Desktop\MiniGameHeaven (3)\MiniGameHeaven\obj\Debug\MiniGameHeaven.Properties.Resources.resources
+C:\Users\User\Desktop\MiniGameHeaven (3)\MiniGameHeaven\obj\Debug\MiniGameHeaven.csproj.GenerateResource.Cache

@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{30FA489E-2C54-4483-A031-054E44DC62B0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MiniGameHeaven</RootNamespace>
+    <AssemblyName>MiniGameHeaven</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ball.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ball.designer.cs">
+      <DependentUpon>ball.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Audio.cs" />
+    <Compile Include="Classes\Food.cs" />
+    <Compile Include="Classes\FormElements.cs" />
+    <Compile Include="Classes\GameBoard.cs" />
+    <Compile Include="Classes\Ghost.cs" />
+    <Compile Include="Classes\HighScore.cs" />
+    <Compile Include="Classes\Pacman.cs" />
+    <Compile Include="Classes\Player.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pacman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pacman.Designer.cs">
+      <DependentUpon>pacman.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ball.resx">
+      <DependentUpon>ball.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pacman.resx">
+      <DependentUpon>pacman.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="dash_dot_lcd-7.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\Sabo-Filled.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Backgr2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nameBox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nameBox1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PackManIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ballIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PackManIcon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ballIcon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audio1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Block 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Block 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Board 1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eyes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ghost 0 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ghost 0 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ghost 0 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ghost 0 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ghost 1 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ghost 1 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ghost 1 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ghost 1 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ghost 2 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ghost 2 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ghost 2 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ghost 2 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ghost 3 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ghost 3 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ghost 3 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ghost 3 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ghost 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ghost 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Life.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pacman 0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pacman 1 0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pacman 1 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pacman 1 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pacman 1 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pacman 2 0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pacman 2 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pacman 2 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pacman 2 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pacman 3 0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pacman 3 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pacman 3 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pacman 3 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pacman 4 0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pacman 4 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pacman 4 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pacman 4 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackGround.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nameBox2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Title.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Title2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Title_fix.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\title_fin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ball_back.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ball_hero.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
